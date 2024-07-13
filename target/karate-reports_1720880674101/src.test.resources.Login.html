@@ -1,0 +1,3212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("a1287e9b-1545-42ca-8c91-dc2c7e19fc6c",{name:"USUARIO"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.Login</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">6</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2024-07-13 09:24:08 a. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Comprobar si hay servicio</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.1:29]"><span>[2.1:29]</span> <span>Signup con nuevo usuario</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2.2:30]"><span>[2.2:30]</span> <span>Signup con nuevo usuario</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:32]"><span>[3:32]</span> <span>Signup usuario existente</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4:43]"><span>[4:43]</span> <span>Login con credenciales exitosas</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[5:58]"><span>[5:58]</span> <span>Login con usuario invalida</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[6:70]"><span>[6:70]</span> <span>Login con contraseña invalida</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[7:82]"><span>[7:82]</span> <span>Login con campos vacios</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/Login.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Inicio de sesion</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Comprobar si hay servicio</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1899</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">147</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url urlPagina</span>
+      </div>
+    </div>
+    <div class="time-cell passed">23</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1726</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">09:24:04.960 request:
+1 &gt; GET https://www.demoblaze.com/
+1 &gt; Host: www.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+09:24:05.978 response time in milliseconds: 1007
+1 &lt; 200
+1 &lt; X-Cloud-Trace-Context: b2c1a2ddd9eda7bcdf7853f86bf4e778
+1 &lt; Server: Google Frontend
+1 &lt; Date: Sat, 13 Jul 2024 14:24:04 GMT
+1 &lt; Expires: Sat, 13 Jul 2024 14:24:14 GMT
+1 &lt; Cache-Control: public, max-age=10
+1 &lt; ETag: &quot;TTo8pA&quot;
+1 &lt; Content-Type: text/html
+1 &lt; Age: 0
+1 &lt; Transfer-Encoding: chunked
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot;&gt;
+
+  &lt;title&gt;STORE&lt;/title&gt;
+  &lt;link href=&quot;node_modules/bootstrap/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;node_modules/video.js/dist/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;css/latofonts.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+  &lt;link href=&quot;css/latostyle.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+  &lt;style&gt;
+    .navbar-toggler {
+      z-index: 1;
+    }
+
+    @media (max-width: 800px) {
+      #carouselExampleIndicators {
+        display: none;
+      }
+    }
+
+    /* Temporary fix for img-fluid sizing within the carousel */
+
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+      display: block;
+    }
+
+    body {
+      font-size: 11pt;
+      /*padding-top: 50px;*/
+      color: #868688;
+      background-color: #FAFCFF;
+    }
+
+    nav {
+      /*background-color: #e7e7e7*/
+      background: rgba(135, 15, 93, 1);
+      background: -moz-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135, 15, 93, 1)), color-stop(19%, rgba(135, 15, 93, 1)), color-stop(55%, rgba(63, 41, 133, 1)), color-stop(100%, rgba(40, 17, 115, 1)));
+      background: -webkit-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -o-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: linear-gradient(to right, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#870f5d&#39;, endColorstr=&#39;#281173&#39;, GradientType=1);
+    }
+
+    /*      .fixed-top{
+        position:absolute;
+
+      } */
+
+    #footc {
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+      /*background-color: #e7e7e7*/
+      background: rgba(135, 15, 93, 1);
+      background: -moz-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135, 15, 93, 1)), color-stop(19%, rgba(135, 15, 93, 1)), color-stop(55%, rgba(63, 41, 133, 1)), color-stop(100%, rgba(40, 17, 115, 1)));
+      background: -webkit-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -o-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: linear-gradient(to right, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#870f5d&#39;, endColorstr=&#39;#281173&#39;, GradientType=1);
+      color: white;
+    }
+
+    #cat {
+      /*background-color: #e7e7e7*/
+      background: rgba(135, 15, 93, 1);
+      background: -moz-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135, 15, 93, 1)), color-stop(19%, rgba(135, 15, 93, 1)), color-stop(55%, rgba(63, 41, 133, 1)), color-stop(100%, rgba(40, 17, 115, 1)));
+      background: -webkit-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -o-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: linear-gradient(to right, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#870f5d&#39;, endColorstr=&#39;#281173&#39;, GradientType=1);
+      color: white;
+      /*font-family: Lato;*/
+      font-size: 25px;
+      font-weight: bold;
+      /*font-style: normal;*/
+      /*font-variant: normal;*/
+    }
+
+    nav a {
+      color: white;
+      /*font-family: Lato;*/
+      font-size: 16px;
+      font-weight: bold;
+      /*color: #868688;*/
+    }
+
+    #itemc {
+      /*color:white;*/
+      /*font-family: Lato;*/
+      font-size: 20px;
+      font-weight: bold;
+      color: #666;
+    }
+
+    nav a:hover {
+      color: #21E8CB;
+      text-decoration: none;
+    }
+
+    #nava {
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar-toggle .icon-bar {
+      background-color: #868688;
+    }
+
+    .starter-template {
+      padding: 40px 15px;
+      text-align: center;
+    }
+
+    .video-js {
+      margin: 0 auto;
+    }
+
+    input {
+      margin-top: 15px;
+      min-width: 450px;
+      padding: 5px;
+    }
+
+    #next2 {
+      cursor: pointer;
+      float: right;
+    }
+
+    .navbar-toggleable-md&gt;.container {
+      align-self: flex-start;
+    }
+
+    #carouselExampleIndicators {
+
+      /*width: 86%;*/
+      margin-left: 2%;
+      -webkit-box-shadow: 0px 11px 5px -1px rgba(0, 0, 0, 0.31);
+      -moz-box-shadow: 0px 11px 5px -1px rgba(0, 0, 0, 0.31);
+      box-shadow: 0px 11px 5px -1px rgba(0, 0, 0, 0.31);
+    }
+
+    #contcar {
+      position: absolute;
+      display: block;
+      left: calc(50% - 400px);
+      top: 22%;
+      z-index: 2;
+      margin-left: auto !important;
+      margin-right: auto;
+      align-items: center !important;
+      width: 800px;
+    }
+
+
+    .carousel-control-prev {
+      left: -10%;
+    }
+
+    .carousel-control-next {
+      right: -10%;
+    }
+
+    #contcont {
+      margin-top: 6%;
+    }
+
+    #article {
+      line-height: 1.5rem;
+      height: 4.7rem;
+      overflow: hidden;
+      text-overflow: -o-ellipsis-lastline;
+    }
+
+    h2.grrrr {
+      display: table;
+      white-space: nowrap;
+
+      &amp;:after {
+        border-top: 3px solid black;
+        content: &#39;&#39;;
+        display: table-cell;
+        position: relative;
+        top: 0.8em;
+        width: 30%;
+      }
+
+      &amp;:after {
+        left: 1.5%;
+      }
+    }
+
+    h4.grrrr {
+      position: relative;
+      overflow: hidden;
+    }
+
+
+    h4.grrrr:after {
+      display: inline-block;
+      content: &quot;&quot;;
+      height: 2px;
+      background: white;
+      position: absolute;
+      width: 22%;
+      top: 50%;
+      margin-top: 2px;
+      margin-left: 15px;
+    }
+
+    .py-5 {
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important;
+    }
+
+    #fotcont {
+      margin-left: 10%;
+    }
+
+    .slide-image {
+      width: 100%;
+    }
+
+    .carousel-holder {
+      margin-bottom: 30px;
+    }
+
+    .carousel-control,
+    .item {
+      border-radius: 4px;
+    }
+
+    /*#divcarcont{
+  align-self: flex-end;
+}*/
+
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+      padding: 0px !important;
+    }
+
+    .navbar-nav {
+      display: flex;
+    }
+
+    .navbar-toggleable-md .navbar-nav {
+      -moz-box-direction: normal;
+      -moz-box-orient: horizontal;
+      flex-direction: row;
+    }
+
+    .ml-auto {
+      margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+      flex-basis: 44% !important;
+    }
+
+    .navbar-brand {
+      margin-right: 20rem;
+    }
+
+    .navbar-toggleable-md .navbar-nav .nav-link {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .navbar-toggleable-md .navbar-collapse {
+      /*display: contents;*/
+      width: 100%;
+    }
+
+    #narvbarx {
+      align-items: baseline !important;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;!-- modal --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;exampleModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;exampleModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;New message&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;recipient-name&quot; class=&quot;form-control-label&quot;&gt;Contact Email:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;recipient-email&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;recipient-name&quot; class=&quot;form-control-label&quot;&gt;Contact Name:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;recipient-name&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message-text&quot; class=&quot;form-control-label&quot;&gt;Message:&lt;/label&gt;
+              &lt;textarea class=&quot;form-control&quot; id=&quot;message-text&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onclick=&quot;send()&quot; class=&quot;btn btn-primary&quot;&gt;Send message&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal SignIn --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;signInModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;signInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;signInModalLabel&quot;&gt;Sign up&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;sign-username&quot; class=&quot;form-control-label&quot;&gt;Username:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;sign-username&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;sign-password&quot; class=&quot;form-control-label&quot;&gt;Password:&lt;/label&gt;
+              &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;sign-password&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label id=&quot;errors&quot; style=&quot;color:red&quot; class=&quot;form-control-label&quot;&gt;&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onClick=&quot;register()&quot; class=&quot;btn btn-primary&quot;&gt;Sign up&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal logIn --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;logInModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;logInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;logInModalLabel&quot;&gt;Log in&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-name&quot; class=&quot;form-control-label&quot;&gt;Username:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loginusername&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-pass&quot; class=&quot;form-control-label&quot;&gt;Password:&lt;/label&gt;
+              &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;loginpassword&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-pass&quot; id=&quot;errorl&quot; class=&quot;form-control-label&quot;&gt;&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onClick=&quot;logIn()&quot; class=&quot;btn btn-primary&quot;&gt;Log in&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal video --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;videoModal&quot; role=&quot;dialog&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;videoModalLabel&quot;&gt;About us&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;video poster=&quot;imgs/front.jpg&quot; id=example-video width=400 height=320 class=&quot;video-js&quot; controls&gt;
+              &lt;/video&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Navigation --&gt;
+  &lt;nav style=&quot;height:350px&quot; id=&quot;narvbarx&quot; class=&quot;navbar navbar-toggleable-md bg-inverse&quot;&gt;
+    &lt;button class=&quot;navbar-toggler navbar-toggler-right&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;
+      data-target=&quot;#navbarExample&quot; aria-controls=&quot;navbarExample&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;a class=&quot;navbar-brand&quot; id=&quot;nava&quot; href=&quot;index.html&quot;&gt;&lt;img width=50 height=50 style=&quot;margin-right:10px&quot; src=&quot;bm.png&quot;&gt;
+      PRODUCT STORE&lt;/a&gt;
+    &lt;div class=&quot;navbar-collapse&quot; id=&quot;navbarExample&quot;&gt;
+      &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+        &lt;li class=&quot;nav-item active&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;index.html&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#videoModal&quot; href=&quot;#&quot;&gt;About us&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; id=&quot;cartur&quot; href=&quot;cart.html&quot;&gt;Cart&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; id=&quot;login2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#logInModal&quot;&gt;Log in&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;display:none&quot; id=&quot;logout2&quot; onClick=&quot;logOut()&quot;&gt;Log out&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;display:none&quot; id=&quot;nameofuser&quot;&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; id=&quot;signin2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#signInModal&quot;&gt;Sign up&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;contcar&quot; class=&quot;lg-9 md-6&quot;&gt;
+      &lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+        &lt;ol class=&quot;carousel-indicators&quot;&gt;
+          &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+          &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+          &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;div class=&quot;carousel-inner&quot;&gt;
+          &lt;div class=&quot;carousel-item active&quot;&gt;
+            &lt;img class=&quot;d-block img-fluid&quot; src=&quot;Samsung1.jpg&quot; alt=&quot;First slide&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;carousel-item&quot;&gt;
+            &lt;img class=&quot;d-block img-fluid&quot; src=&quot;nexus1.jpg&quot; alt=&quot;Second slide&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;carousel-item&quot;&gt;
+            &lt;img class=&quot;d-block img-fluid&quot; src=&quot;iphone1.jpg&quot; alt=&quot;Third slide&quot;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+          &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+          &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+
+
+  &lt;div class=&quot;container&quot; id=&quot;contcont&quot;&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+
+      &lt;div class=&quot;col-lg-3&quot;&gt;
+        &lt;div class=&quot;list-group&quot;&gt;
+          &lt;a href=&quot;&quot; class=&quot;list-group-item&quot; id=&quot;cat&quot;&gt;CATEGORIES&lt;/a&gt;
+          &lt;a href=&quot;#&quot; id=&quot;itemc&quot; onClick=&quot;byCat(&#39;phone&#39;)&quot; class=&quot;list-group-item&quot;&gt;Phones&lt;/a&gt;
+          &lt;a href=&quot;#&quot; id=&quot;itemc&quot; onClick=&quot;byCat(&#39;notebook&#39;)&quot; class=&quot;list-group-item&quot;&gt;Laptops&lt;/a&gt;
+          &lt;a href=&quot;#&quot; id=&quot;itemc&quot; onClick=&quot;byCat(&#39;monitor&#39;)&quot; class=&quot;list-group-item&quot;&gt;Monitors&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-lg-9&quot;&gt;
+        &lt;!-- &lt;div class=&quot;container&quot;&gt; --&gt;
+
+        &lt;div class=&quot;row&quot; id=&quot;tbodyid&quot;&gt;
+        &lt;/div&gt;
+        &lt;form name=&quot;frm&quot; id=&quot;frm&quot; style=&quot;float: right;&quot; onsubmit=&quot;return false&quot;&gt;
+          &lt;!-- &lt;button type=&quot;button&quot; id=&quot;next2&quot; class=&quot;btn btn-success&quot;&gt;Next &gt;&lt;/button&gt; --&gt;
+          &lt;ul class=&quot;pagination&quot;&gt;
+            &lt;li class=&quot;page-item&quot;&gt;&lt;button class=&quot;page-link&quot; id=&quot;prev2&quot;&gt;Previous&lt;/button&gt;&lt;/li&gt;
+            &lt;li class=&quot;page-item&quot;&gt;&lt;button class=&quot;page-link&quot; id=&quot;next2&quot;&gt;Next&lt;/button&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script src=&quot;node_modules/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/video.js/dist/video.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/tether/dist/js/tether.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;js/index.js&quot;&gt;&lt;/script&gt;
+
+  &lt;div id=&quot;footc&quot;&gt;
+    &lt;div id=&quot;fotcont&quot; class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-sm-4 col-lg-4 col-md-4&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4 class=&quot;grrrr&quot;&gt;&lt;b&gt;About Us&lt;/b&gt;&lt;/h4&gt;
+            &lt;p&gt;We believe performance needs to be validated at every stage of the software development cycle and our
+              open source compatible, massively scalable platform makes that a reality.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-sm-3 col-lg-3 col-md-3&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4 class=&quot;grrrr&quot;&gt;&lt;b&gt;Get in Touch&lt;/b&gt;&lt;/h4&gt;
+            &lt;p&gt;Address: 2390 El Camino Real&lt;/p&gt;
+            &lt;p&gt;Phone: +440 123456&lt;/p&gt;
+            &lt;p&gt;Email: demo@blazemeter.com &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-sm-4 col-lg-4 col-md-4&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4&gt;&lt;img width=50 height=50 style=&quot;margin-right:10px&quot; src=&quot;bm.png&quot;&gt; PRODUCT STORE&lt;/h4&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;footer class=&quot;py-5 bg-inverse&quot;&gt;
+    &lt;p class=&quot;m-0 text-center text-white&quot;&gt;Copyright &amp;copy; Product Store 2017&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.1:29]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.1:29]</span>
+                <span class="scenario-name">Signup con nuevo usuario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>796</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2.1:29]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2.1:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.1:29]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiSign</span>
+      </div>
+    </div>
+    <div class="time-cell passed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">78</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.15">{
+  &quot;username&quot;: &quot;User_prueba12&quot;,
+  &quot;password&quot;: &quot;User_prueba12&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">583</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.20">09:24:06.240 request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 55
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;User_prueba12&quot;,&quot;password&quot;:&quot;User_prueba12&quot;}
+
+09:24:06.704 response time in milliseconds: 464
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: d5a3dcd3ae80adc7f9deb7e0ce609789;o=1
+1 &lt; Date: Sat, 13 Jul 2024 14:24:05 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">88</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.22">09:24:06.791 [print] {
+  &quot;errorMessage&quot;: &quot;This user already exist.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref failed">23</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response contains &quot;&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.23">09:24:06.813 src/test/resources/Login.feature:23
+And match response contains &quot;&quot;
+match failed: CONTAINS
+  $ | data types don&#39;t match (MAP:STRING)
+  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+  &#39;&#39;
+
+
+src/test/resources/Login.feature:23
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.2:30]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.2:30]</span>
+                <span class="scenario-name">Signup con nuevo usuario</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>364</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2.2:30]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2.2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2.2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiSign</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.15">{
+  &quot;username&quot;: &quot;&quot;,
+  &quot;password&quot;: &quot;&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">357</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.20">09:24:06.829 request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
+
+09:24:07.184 response time in milliseconds: 354
+1 &lt; 500
+1 &lt; Content-Type: text/html
+1 &lt; X-Cloud-Trace-Context: 57da6fc5a321a42f2685516c25fba9d4
+1 &lt; Date: Sat, 13 Jul 2024 14:24:06 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 290
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 500</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.22">09:24:07.186 [print] &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response contains &quot;Internal Server Error&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:32]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:32]</span>
+                <span class="scenario-name">Signup usuario existente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>341</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:32]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:32]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiSign</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.34">{
+  &quot;username&quot;: &quot;User_prueba1&quot;,
+  &quot;password&quot;: &quot;User_prueba1&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">335</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.39">09:24:07.207 request:
+1 &gt; POST https://api.demoblaze.com/signup
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 53
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;User_prueba1&quot;,&quot;password&quot;:&quot;User_prueba1&quot;}
+
+09:24:07.539 response time in milliseconds: 332
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: a23663ea381b7cac6397cdc897ea3750
+1 &lt; Date: Sat, 13 Jul 2024 14:24:06 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4:43]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4:43]</span>
+                <span class="scenario-name">Login con credenciales exitosas</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>357</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4:43]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4:43]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref passed">44</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref passed">45</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.45">{
+  &quot;username&quot;: &quot;User_prueba1&quot;,
+  &quot;password&quot;: &quot;User_prueba1&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">348</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.50">09:24:07.559 request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 53
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;User_prueba1&quot;,&quot;password&quot;:&quot;User_prueba1&quot;}
+
+09:24:07.903 response time in milliseconds: 344
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: 20313a9d9e8a9cf0585e23aa9813a4c0
+1 &lt; Date: Sat, 13 Jul 2024 14:24:06 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.52">09:24:07.906 [print] {
+  &quot;errorMessage&quot;: &quot;Wrong password.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref failed">53</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response != {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.53">09:24:07.908 src/test/resources/Login.feature:53
+And match response != {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}
+match failed: NOT_EQUALS
+  $ | is equal (MAP:MAP)
+  {&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+  {&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+src/test/resources/Login.feature:53
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[5:58]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[5:58]</span>
+                <span class="scenario-name">Login con usuario invalida</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>337</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[5:58]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[5:58]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:58]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:58]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[5:58]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.59">
+      <div class="step-ref passed">59</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.60">
+      <div class="step-ref passed">60</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.60">{
+  &quot;username&quot;: &quot;User_prueba33&quot;,
+  &quot;password&quot;: &quot;User_prueba2&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.65">
+      <div class="step-ref passed">65</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">332</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.65">09:24:07.923 request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 54
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;User_prueba33&quot;,&quot;password&quot;:&quot;User_prueba2&quot;}
+
+09:24:08.251 response time in milliseconds: 328
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: a2863c5d7b8ab27e1a8a47987f9b42e3
+1 &lt; Date: Sat, 13 Jul 2024 14:24:07 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;User does not exist.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.66">
+      <div class="step-ref passed">66</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.67">
+      <div class="step-ref passed">67</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.67">09:24:08.254 [print] {
+  &quot;errorMessage&quot;: &quot;User does not exist.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.68">
+      <div class="step-ref passed">68</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == {&quot;errorMessage&quot;:&quot;User does not exist.&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[6:70]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[6:70]</span>
+                <span class="scenario-name">Login con contraseña invalida</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>327</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[6:70]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[6:70]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:70]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:70]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[6:70]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.71">
+      <div class="step-ref passed">71</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.72">
+      <div class="step-ref passed">72</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.72">{
+  &quot;username&quot;: &quot;User_prueba1&quot;,
+  &quot;password&quot;: &quot;User_prueba2&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.77">
+      <div class="step-ref passed">77</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">321</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.77">09:24:08.269 request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 53
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;User_prueba1&quot;,&quot;password&quot;:&quot;User_prueba2&quot;}
+
+09:24:08.586 response time in milliseconds: 317
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Cloud-Trace-Context: c5635c334925bb5cd1743b5b00fe0aa8
+1 &lt; Date: Sat, 13 Jul 2024 14:24:07 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Cache-Control: private
+1 &lt; Transfer-Encoding: chunked
+{&quot;errorMessage&quot;:&quot;Wrong password.&quot;}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.78">
+      <div class="step-ref passed">78</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.79">
+      <div class="step-ref passed">79</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.79">09:24:08.589 [print] {
+  &quot;errorMessage&quot;: &quot;Wrong password.&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.80">
+      <div class="step-ref passed">80</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[7:82]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[7:82]</span>
+                <span class="scenario-name">Login con campos vacios</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>328</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[7:82]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[7:82]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:82]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:82]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[7:82]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.83">
+      <div class="step-ref passed">83</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.84">
+      <div class="step-ref passed">84</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.84">{
+  &quot;username&quot;: &quot;&quot;,
+  &quot;password&quot;: &quot;&quot; }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.89">
+      <div class="step-ref passed">89</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">323</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.89">09:24:08.606 request:
+1 &gt; POST https://api.demoblaze.com/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: api.demoblaze.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
+
+09:24:08.925 response time in milliseconds: 318
+1 &lt; 500
+1 &lt; Content-Type: text/html
+1 &lt; X-Cloud-Trace-Context: ceecee6f3e12d38cab308c90669dd1bf
+1 &lt; Date: Sat, 13 Jul 2024 14:24:07 GMT
+1 &lt; Server: Google Frontend
+1 &lt; Content-Length: 290
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.90">
+      <div class="step-ref passed">90</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 500</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.91">
+      <div class="step-ref passed">91</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.91">09:24:08.927 [print] &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+&lt;title&gt;500 Internal Server Error&lt;/title&gt;
+&lt;h1&gt;Internal Server Error&lt;/h1&gt;
+&lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.92">
+      <div class="step-ref passed">92</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response contains &quot;Internal Server Error&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
