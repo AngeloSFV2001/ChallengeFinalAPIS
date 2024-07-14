@@ -1,9 +1,16 @@
 Conclusiones de la API
 
 Se puede decir que se tuvo falencias en un punto del sistema:
- 
-- Signup de nuevo usuario: En este caso se observo que no se mostraba un mensaje de confirmación de creación de usuario. Se pudo comprobar su creación con su posterior inicio de sesión con las mismas contraseñas.
+- Signup de nuevo usuario: En este caso se observo que no se mostraba un mensaje de
+confirmación de creación de usuario. Se pudo comprobar su creación con su posterior
+inicio de sesión con las mismas contraseñas.
 
 Recomendaciones para la API 
-En este cosa no se tiene validación del número ni el tipo de caracteres dado que se puede crear un usuario sin la necesidad de colocar una contraseña, por ende se recomienda colocar validación tanto del tipo como la cantidad de caracteres
+En este cosa no se tiene validación del número ni el tipo de caracteres dado que se
+puede crear un usuario sin la necesidad de colocar una contraseña, por ende se recomienda
+colocar validación tanto del tipo como la cantidad de caracteres
+
+Conclusiones con respecto a las herramientas, Gherkin
+Se tuvo una gran solvencia frente a casos de prueba con esta herramienta, ayudo a
+completar todas los casos por verificar sin mucha demanda de recursos
 

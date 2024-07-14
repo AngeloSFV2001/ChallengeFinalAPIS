@@ -16,8 +16,8 @@
        - %JAVA_HOME%\bin
        - %M2_HOME%\bin
 2. Comandos de instalación
-    -utilizamos el siguiente comando para actualizar las dependencias de maven
-   nota: En caso de que no se actualice, realizar de forma manual con el boton refrescar en la barra lateral de maven
+   - utilizamos el siguiente comando para actualizar las dependencias de maven: "mvn -U dependency:resolve"
+     - nota: En caso de que no se actualice, realizar de forma manual con el boton refrescar en la barra lateral de maven
 3. Instrucciones para ejecutar los test
    - para ejecutar los test nos trasladamos a la feature Login que se encuentra en src -> test -> resources
      - Podemos ejecutar todo el feature con todos los escenarios o individualmente. Los escenarios disponibles son:
@@ -29,5 +29,5 @@
        - Login con campos vacios
 4. Información adicional
    - Se puede ver los reportes en la carpeta target a través de un explorador.Tambien, al momento de ejecutar el test 
-  se crea un link que lleva a un reporte mas amigable para entender
+  se crea un link que lleva a un reporte mas amigable para su entendimiento
   
