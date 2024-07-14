@@ -26,7 +26,7 @@ Feature: Inicio de sesion
     #2. deberia tener validador de caracteres de contraseña, tanto por su tamaño que por su contenido
   Examples:
     | USER | PASSWORD | STATUS_CODE |MESSAGE|
-    |User_prueba15|User_prueba15| 200| |
+    |User_prueba20| | 200| |
     |              |              | 500|Internal Server Error|
 
   Scenario: Signup usuario existente
@@ -44,16 +44,13 @@ Feature: Inicio de sesion
     Given url apiBase + apiLog
     And request
   """{
-  "username": "User_prueba1",
-  "password": "User_prueba1" }
+  "username": "User_prueba20",
+  "password": "" }
   """
     When method post
     Then status 200
     And print response
-    And match response != {"errorMessage": "Wrong password."}
-    #La respuesta de este proceso tiene inconsistencias, se puede deber que al crear la cuenta esta registra
-      # otro contraseña o que tiene un mensaje erronio, pero haciendo pruebas de usabilidad se tiene que
-      # si se accede con estas credenciales
+    And match response contains 'Auth_token:'
 
   Scenario: Login con usuario invalida
     Given url apiBase + apiLog
