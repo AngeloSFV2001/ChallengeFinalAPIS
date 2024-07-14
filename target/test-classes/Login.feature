@@ -26,7 +26,7 @@ Feature: Inicio de sesion
     #2. deberia tener validador de caracteres de contraseña, tanto por su tamaño que por su contenido
   Examples:
     | USER | PASSWORD | STATUS_CODE |MESSAGE|
-    |User_prueba15|User_prueba15| 200| |
+    |User_prueba14|User_prueba14| 200| |
     |              |              | 500|Internal Server Error|
 
   Scenario: Signup usuario existente
