@@ -37,23 +37,23 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">6</div>
-      <div id="nav-fail" class="bg-danger">2</div>
+      <div id="nav-pass" class="bg-success">8</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2024-07-17 08:42:22 a. m.</div>
+    <div>2024-07-17 09:17:45 a. m.</div>
   </div>        
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:10]"><span>[1:10]</span> <span>Comprobar si hay servicio</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[2.1:27]"><span>[2.1:27]</span> <span>Signup con nuevo usuario</span></a>
           </div>
           <div class="nav-item passed">
@@ -97,8 +97,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>12074</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3800</span>
             </div>
           </div>
           <div class="step-row">
@@ -121,7 +121,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -149,7 +149,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -177,7 +177,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -205,7 +205,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -233,7 +233,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">150</div>
+    <div class="time-cell passed">240</div>
   </div>
 
    
@@ -261,7 +261,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def usoCredenciales = data.Credenciales</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -289,7 +289,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url urlPagina</span>
       </div>
     </div>
-    <div class="time-cell passed">34</div>
+    <div class="time-cell passed">60</div>
   </div>
 
    
@@ -311,13 +311,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref failed">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell failed">11876</div>
+    <div class="time-cell passed">3473</div>
   </div>
 
    
@@ -326,7 +326,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">08:42:11.641 request:
+  <div class="preformatted" data-parent="0.12">09:17:42.582 request:
 1 &gt; GET https://www.demoblaze.com/
 1 &gt; Host: www.demoblaze.com
 1 &gt; Connection: Keep-Alive
@@ -334,11 +334,584 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-08:42:22.844 java.net.UnknownHostException: Host desconocido (www.demoblaze.com), http call failed after 11860 milliseconds for url: https://www.demoblaze.com/
-08:42:22.844 classpath:features/Login.feature:12
-When method get
-http call failed after 11860 milliseconds for url: https://www.demoblaze.com/
-classpath:features/Login.feature:12
+09:17:44.271 response time in milliseconds: 1685
+1 &lt; 200
+1 &lt; Date: Wed, 17 Jul 2024 14:17:43 GMT
+1 &lt; Expires: Wed, 17 Jul 2024 14:17:53 GMT
+1 &lt; Cache-Control: public, max-age=10
+1 &lt; ETag: &quot;TTo8pA&quot;
+1 &lt; X-Cloud-Trace-Context: 55135ec0d200290158649d0282434c51
+1 &lt; Content-Type: text/html
+1 &lt; Server: Google Frontend
+1 &lt; Transfer-Encoding: chunked
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;
+  &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+  &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot;&gt;
+
+  &lt;title&gt;STORE&lt;/title&gt;
+  &lt;link href=&quot;node_modules/bootstrap/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;node_modules/video.js/dist/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link href=&quot;css/latofonts.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+  &lt;link href=&quot;css/latostyle.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+  &lt;style&gt;
+    .navbar-toggler {
+      z-index: 1;
+    }
+
+    @media (max-width: 800px) {
+      #carouselExampleIndicators {
+        display: none;
+      }
+    }
+
+    /* Temporary fix for img-fluid sizing within the carousel */
+
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev {
+      display: block;
+    }
+
+    body {
+      font-size: 11pt;
+      /*padding-top: 50px;*/
+      color: #868688;
+      background-color: #FAFCFF;
+    }
+
+    nav {
+      /*background-color: #e7e7e7*/
+      background: rgba(135, 15, 93, 1);
+      background: -moz-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135, 15, 93, 1)), color-stop(19%, rgba(135, 15, 93, 1)), color-stop(55%, rgba(63, 41, 133, 1)), color-stop(100%, rgba(40, 17, 115, 1)));
+      background: -webkit-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -o-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: linear-gradient(to right, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#870f5d&#39;, endColorstr=&#39;#281173&#39;, GradientType=1);
+    }
+
+    /*      .fixed-top{
+        position:absolute;
+
+      } */
+
+    #footc {
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+      /*background-color: #e7e7e7*/
+      background: rgba(135, 15, 93, 1);
+      background: -moz-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135, 15, 93, 1)), color-stop(19%, rgba(135, 15, 93, 1)), color-stop(55%, rgba(63, 41, 133, 1)), color-stop(100%, rgba(40, 17, 115, 1)));
+      background: -webkit-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -o-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: linear-gradient(to right, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#870f5d&#39;, endColorstr=&#39;#281173&#39;, GradientType=1);
+      color: white;
+    }
+
+    #cat {
+      /*background-color: #e7e7e7*/
+      background: rgba(135, 15, 93, 1);
+      background: -moz-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(135, 15, 93, 1)), color-stop(19%, rgba(135, 15, 93, 1)), color-stop(55%, rgba(63, 41, 133, 1)), color-stop(100%, rgba(40, 17, 115, 1)));
+      background: -webkit-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -o-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: -ms-linear-gradient(left, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      background: linear-gradient(to right, rgba(135, 15, 93, 1) 0%, rgba(135, 15, 93, 1) 19%, rgba(63, 41, 133, 1) 55%, rgba(40, 17, 115, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#870f5d&#39;, endColorstr=&#39;#281173&#39;, GradientType=1);
+      color: white;
+      /*font-family: Lato;*/
+      font-size: 25px;
+      font-weight: bold;
+      /*font-style: normal;*/
+      /*font-variant: normal;*/
+    }
+
+    nav a {
+      color: white;
+      /*font-family: Lato;*/
+      font-size: 16px;
+      font-weight: bold;
+      /*color: #868688;*/
+    }
+
+    #itemc {
+      /*color:white;*/
+      /*font-family: Lato;*/
+      font-size: 20px;
+      font-weight: bold;
+      color: #666;
+    }
+
+    nav a:hover {
+      color: #21E8CB;
+      text-decoration: none;
+    }
+
+    #nava {
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar-toggle .icon-bar {
+      background-color: #868688;
+    }
+
+    .starter-template {
+      padding: 40px 15px;
+      text-align: center;
+    }
+
+    .video-js {
+      margin: 0 auto;
+    }
+
+    input {
+      margin-top: 15px;
+      min-width: 450px;
+      padding: 5px;
+    }
+
+    #next2 {
+      cursor: pointer;
+      float: right;
+    }
+
+    .navbar-toggleable-md&gt;.container {
+      align-self: flex-start;
+    }
+
+    #carouselExampleIndicators {
+
+      /*width: 86%;*/
+      margin-left: 2%;
+      -webkit-box-shadow: 0px 11px 5px -1px rgba(0, 0, 0, 0.31);
+      -moz-box-shadow: 0px 11px 5px -1px rgba(0, 0, 0, 0.31);
+      box-shadow: 0px 11px 5px -1px rgba(0, 0, 0, 0.31);
+    }
+
+    #contcar {
+      position: absolute;
+      display: block;
+      left: calc(50% - 400px);
+      top: 22%;
+      z-index: 2;
+      margin-left: auto !important;
+      margin-right: auto;
+      align-items: center !important;
+      width: 800px;
+    }
+
+
+    .carousel-control-prev {
+      left: -10%;
+    }
+
+    .carousel-control-next {
+      right: -10%;
+    }
+
+    #contcont {
+      margin-top: 6%;
+    }
+
+    #article {
+      line-height: 1.5rem;
+      height: 4.7rem;
+      overflow: hidden;
+      text-overflow: -o-ellipsis-lastline;
+    }
+
+    h2.grrrr {
+      display: table;
+      white-space: nowrap;
+
+      &amp;:after {
+        border-top: 3px solid black;
+        content: &#39;&#39;;
+        display: table-cell;
+        position: relative;
+        top: 0.8em;
+        width: 30%;
+      }
+
+      &amp;:after {
+        left: 1.5%;
+      }
+    }
+
+    h4.grrrr {
+      position: relative;
+      overflow: hidden;
+    }
+
+
+    h4.grrrr:after {
+      display: inline-block;
+      content: &quot;&quot;;
+      height: 2px;
+      background: white;
+      position: absolute;
+      width: 22%;
+      top: 50%;
+      margin-top: 2px;
+      margin-left: 15px;
+    }
+
+    .py-5 {
+      padding-bottom: 1rem !important;
+      padding-top: 1rem !important;
+    }
+
+    #fotcont {
+      margin-left: 10%;
+    }
+
+    .slide-image {
+      width: 100%;
+    }
+
+    .carousel-holder {
+      margin-bottom: 30px;
+    }
+
+    .carousel-control,
+    .item {
+      border-radius: 4px;
+    }
+
+    /*#divcarcont{
+  align-self: flex-end;
+}*/
+
+    html,
+    body {
+      max-width: 100%;
+      overflow-x: hidden;
+      padding: 0px !important;
+    }
+
+    .navbar-nav {
+      display: flex;
+    }
+
+    .navbar-toggleable-md .navbar-nav {
+      -moz-box-direction: normal;
+      -moz-box-orient: horizontal;
+      flex-direction: row;
+    }
+
+    .ml-auto {
+      margin-left: auto !important;
+    }
+
+    .navbar-collapse {
+      flex-basis: 44% !important;
+    }
+
+    .navbar-brand {
+      margin-right: 20rem;
+    }
+
+    .navbar-toggleable-md .navbar-nav .nav-link {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .navbar-toggleable-md .navbar-collapse {
+      /*display: contents;*/
+      width: 100%;
+    }
+
+    #narvbarx {
+      align-items: baseline !important;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;!-- modal --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;exampleModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;exampleModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;exampleModalLabel&quot;&gt;New message&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;recipient-name&quot; class=&quot;form-control-label&quot;&gt;Contact Email:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;recipient-email&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;recipient-name&quot; class=&quot;form-control-label&quot;&gt;Contact Name:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;recipient-name&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;message-text&quot; class=&quot;form-control-label&quot;&gt;Message:&lt;/label&gt;
+              &lt;textarea class=&quot;form-control&quot; id=&quot;message-text&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onclick=&quot;send()&quot; class=&quot;btn btn-primary&quot;&gt;Send message&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal SignIn --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;signInModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;signInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;signInModalLabel&quot;&gt;Sign up&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;sign-username&quot; class=&quot;form-control-label&quot;&gt;Username:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;sign-username&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;sign-password&quot; class=&quot;form-control-label&quot;&gt;Password:&lt;/label&gt;
+              &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;sign-password&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label id=&quot;errors&quot; style=&quot;color:red&quot; class=&quot;form-control-label&quot;&gt;&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onClick=&quot;register()&quot; class=&quot;btn btn-primary&quot;&gt;Sign up&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal logIn --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;logInModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;logInModalLabel&quot;
+    aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;logInModalLabel&quot;&gt;Log in&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-name&quot; class=&quot;form-control-label&quot;&gt;Username:&lt;/label&gt;
+              &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;loginusername&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-pass&quot; class=&quot;form-control-label&quot;&gt;Password:&lt;/label&gt;
+              &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;loginpassword&quot;&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;label for=&quot;log-pass&quot; id=&quot;errorl&quot; class=&quot;form-control-label&quot;&gt;&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+          &lt;button type=&quot;button&quot; onClick=&quot;logIn()&quot; class=&quot;btn btn-primary&quot;&gt;Log in&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- end modal --&gt;
+
+  &lt;!-- modal video --&gt;
+  &lt;div class=&quot;modal fade&quot; id=&quot;videoModal&quot; role=&quot;dialog&quot;&gt;
+    &lt;div class=&quot;modal-dialog&quot;&gt;
+      &lt;div class=&quot;modal-content&quot;&gt;
+        &lt;div class=&quot;modal-header&quot;&gt;
+          &lt;h5 class=&quot;modal-title&quot; id=&quot;videoModalLabel&quot;&gt;About us&lt;/h5&gt;
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-body&quot;&gt;
+          &lt;form&gt;
+            &lt;div class=&quot;form-group&quot;&gt;
+              &lt;video poster=&quot;imgs/front.jpg&quot; id=example-video width=400 height=320 class=&quot;video-js&quot; controls&gt;
+              &lt;/video&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;modal-footer&quot;&gt;
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;Close&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- Navigation --&gt;
+  &lt;nav style=&quot;height:350px&quot; id=&quot;narvbarx&quot; class=&quot;navbar navbar-toggleable-md bg-inverse&quot;&gt;
+    &lt;button class=&quot;navbar-toggler navbar-toggler-right&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;
+      data-target=&quot;#navbarExample&quot; aria-controls=&quot;navbarExample&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
+      &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;a class=&quot;navbar-brand&quot; id=&quot;nava&quot; href=&quot;index.html&quot;&gt;&lt;img width=50 height=50 style=&quot;margin-right:10px&quot; src=&quot;bm.png&quot;&gt;
+      PRODUCT STORE&lt;/a&gt;
+    &lt;div class=&quot;navbar-collapse&quot; id=&quot;navbarExample&quot;&gt;
+      &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;
+        &lt;li class=&quot;nav-item active&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;index.html&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#videoModal&quot; href=&quot;#&quot;&gt;About us&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; id=&quot;cartur&quot; href=&quot;cart.html&quot;&gt;Cart&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; id=&quot;login2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#logInModal&quot;&gt;Log in&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;display:none&quot; id=&quot;logout2&quot; onClick=&quot;logOut()&quot;&gt;Log out&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; style=&quot;display:none&quot; id=&quot;nameofuser&quot;&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;nav-item&quot;&gt;
+          &lt;a class=&quot;nav-link&quot; href=&quot;#&quot; id=&quot;signin2&quot; data-toggle=&quot;modal&quot; data-target=&quot;#signInModal&quot;&gt;Sign up&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;contcar&quot; class=&quot;lg-9 md-6&quot;&gt;
+      &lt;div id=&quot;carouselExampleIndicators&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+        &lt;ol class=&quot;carousel-indicators&quot;&gt;
+          &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+          &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+          &lt;li data-target=&quot;#carouselExampleIndicators&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;div class=&quot;carousel-inner&quot;&gt;
+          &lt;div class=&quot;carousel-item active&quot;&gt;
+            &lt;img class=&quot;d-block img-fluid&quot; src=&quot;Samsung1.jpg&quot; alt=&quot;First slide&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;carousel-item&quot;&gt;
+            &lt;img class=&quot;d-block img-fluid&quot; src=&quot;nexus1.jpg&quot; alt=&quot;Second slide&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;carousel-item&quot;&gt;
+            &lt;img class=&quot;d-block img-fluid&quot; src=&quot;iphone1.jpg&quot; alt=&quot;Third slide&quot;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+          &lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleIndicators&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+          &lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+
+
+  &lt;div class=&quot;container&quot; id=&quot;contcont&quot;&gt;
+
+    &lt;div class=&quot;row&quot;&gt;
+
+      &lt;div class=&quot;col-lg-3&quot;&gt;
+        &lt;div class=&quot;list-group&quot;&gt;
+          &lt;a href=&quot;&quot; class=&quot;list-group-item&quot; id=&quot;cat&quot;&gt;CATEGORIES&lt;/a&gt;
+          &lt;a href=&quot;#&quot; id=&quot;itemc&quot; onClick=&quot;byCat(&#39;phone&#39;)&quot; class=&quot;list-group-item&quot;&gt;Phones&lt;/a&gt;
+          &lt;a href=&quot;#&quot; id=&quot;itemc&quot; onClick=&quot;byCat(&#39;notebook&#39;)&quot; class=&quot;list-group-item&quot;&gt;Laptops&lt;/a&gt;
+          &lt;a href=&quot;#&quot; id=&quot;itemc&quot; onClick=&quot;byCat(&#39;monitor&#39;)&quot; class=&quot;list-group-item&quot;&gt;Monitors&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-lg-9&quot;&gt;
+        &lt;!-- &lt;div class=&quot;container&quot;&gt; --&gt;
+
+        &lt;div class=&quot;row&quot; id=&quot;tbodyid&quot;&gt;
+        &lt;/div&gt;
+        &lt;form name=&quot;frm&quot; id=&quot;frm&quot; style=&quot;float: right;&quot; onsubmit=&quot;return false&quot;&gt;
+          &lt;!-- &lt;button type=&quot;button&quot; id=&quot;next2&quot; class=&quot;btn btn-success&quot;&gt;Next &gt;&lt;/button&gt; --&gt;
+          &lt;ul class=&quot;pagination&quot;&gt;
+            &lt;li class=&quot;page-item&quot;&gt;&lt;button class=&quot;page-link&quot; id=&quot;prev2&quot;&gt;Previous&lt;/button&gt;&lt;/li&gt;
+            &lt;li class=&quot;page-item&quot;&gt;&lt;button class=&quot;page-link&quot; id=&quot;next2&quot;&gt;Next&lt;/button&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+
+        &lt;/form&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script src=&quot;node_modules/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/video.js/dist/video.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/videojs-contrib-hls/dist/videojs-contrib-hls.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/tether/dist/js/tether.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;node_modules/bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;js/index.js&quot;&gt;&lt;/script&gt;
+
+  &lt;div id=&quot;footc&quot;&gt;
+    &lt;div id=&quot;fotcont&quot; class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-sm-4 col-lg-4 col-md-4&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4 class=&quot;grrrr&quot;&gt;&lt;b&gt;About Us&lt;/b&gt;&lt;/h4&gt;
+            &lt;p&gt;We believe performance needs to be validated at every stage of the software development cycle and our
+              open source compatible, massively scalable platform makes that a reality.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-sm-3 col-lg-3 col-md-3&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4 class=&quot;grrrr&quot;&gt;&lt;b&gt;Get in Touch&lt;/b&gt;&lt;/h4&gt;
+            &lt;p&gt;Address: 2390 El Camino Real&lt;/p&gt;
+            &lt;p&gt;Phone: +440 123456&lt;/p&gt;
+            &lt;p&gt;Email: demo@blazemeter.com &lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-sm-4 col-lg-4 col-md-4&quot;&gt;
+        &lt;div class=&quot;thumbnail&quot;&gt;
+          &lt;div class=&quot;caption&quot;&gt;
+            &lt;h4&gt;&lt;img width=50 height=50 style=&quot;margin-right:10px&quot; src=&quot;bm.png&quot;&gt; PRODUCT STORE&lt;/h4&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;footer class=&quot;py-5 bg-inverse&quot;&gt;
+    &lt;p class=&quot;m-0 text-center text-white&quot;&gt;Copyright &amp;copy; Product Store 2017&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+
 </div>   
 
   
@@ -352,13 +925,13 @@ classpath:features/Login.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -386,8 +959,8 @@ classpath:features/Login.feature:12
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>5035</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3849</span>
             </div>
           </div>
           <div class="step-row">
@@ -410,7 +983,7 @@ classpath:features/Login.feature:12
         <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -438,7 +1011,7 @@ classpath:features/Login.feature:12
         <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -466,7 +1039,7 @@ classpath:features/Login.feature:12
         <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -494,7 +1067,7 @@ classpath:features/Login.feature:12
         <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -522,7 +1095,7 @@ classpath:features/Login.feature:12
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">150</div>
+    <div class="time-cell passed">240</div>
   </div>
 
    
@@ -550,7 +1123,7 @@ classpath:features/Login.feature:12
         <span>*</span>&nbsp;<span>def usoCredenciales = data.Credenciales</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -578,7 +1151,7 @@ classpath:features/Login.feature:12
         <span>Given</span>&nbsp;<span>url apiBase + apiSign</span>
       </div>
     </div>
-    <div class="time-cell passed">28</div>
+    <div class="time-cell passed">40</div>
   </div>
 
    
@@ -606,7 +1179,7 @@ classpath:features/Login.feature:12
         <span>And</span>&nbsp;<span>request usoCredenciales[0]</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -634,7 +1207,7 @@ classpath:features/Login.feature:12
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">4802</div>
+    <div class="time-cell passed">3431</div>
   </div>
 
    
@@ -643,7 +1216,7 @@ classpath:features/Login.feature:12
 
   
 
-  <div class="preformatted" data-parent="1.18">08:42:11.642 request:
+  <div class="preformatted" data-parent="1.18">09:17:42.584 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 42
@@ -651,18 +1224,16 @@ classpath:features/Login.feature:12
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;User_prueba22&quot;,&quot;password&quot;:&quot;&quot;}
+{&quot;username&quot;:&quot;User_prueba23&quot;,&quot;password&quot;:&quot;&quot;}
 
-08:42:15.768 response time in milliseconds: 4122
+09:17:44.227 response time in milliseconds: 1633
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: a2e97c0fbc59613173c81ce18eb04a85
-1 &lt; Date: Wed, 17 Jul 2024 13:42:14 GMT
+1 &lt; X-Cloud-Trace-Context: 13f92e2d546408928209a2c1f673890f;o=1
+1 &lt; Date: Wed, 17 Jul 2024 14:17:43 GMT
 1 &lt; Server: Google Frontend
-1 &lt; Cache-Control: private
-1 &lt; Transfer-Encoding: chunked
-{&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
+1 &lt; Content-Length: 3
+&quot;&quot;
 
 
 </div>   
@@ -712,7 +1283,7 @@ classpath:features/Login.feature:12
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">19</div>
+    <div class="time-cell passed">57</div>
   </div>
 
    
@@ -721,9 +1292,7 @@ classpath:features/Login.feature:12
 
   
 
-  <div class="preformatted" data-parent="1.20">08:42:15.790 [print] {
-  &quot;errorMessage&quot;: &quot;This user already exist.&quot;
-}
+  <div class="preformatted" data-parent="1.20">09:17:44.283 [print] &quot;&quot;
  
 </div>   
 
@@ -738,13 +1307,13 @@ classpath:features/Login.feature:12
 
   <div class="step-row">
     <div class="step-container" id="1.21">
-      <div class="step-ref failed">21</div>
+      <div class="step-ref passed">21</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response contains &quot;&quot;</span>
       </div>
     </div>
-    <div class="time-cell failed">14</div>
+    <div class="time-cell passed">33</div>
   </div>
 
    
@@ -753,16 +1322,7 @@ classpath:features/Login.feature:12
 
   
 
-  <div class="preformatted" data-parent="1.21">08:42:15.805 classpath:features/Login.feature:21
-And match response contains &quot;&quot;
-match failed: CONTAINS
-  $ | data types don&#39;t match (MAP:STRING)
-  {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}
-  &#39;&#39;
-
-
-classpath:features/Login.feature:21
-</div>   
+     
 
   
 
@@ -782,7 +1342,7 @@ classpath:features/Login.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>631</span>
+              <span>ms:</span>&nbsp;<span>365</span>
             </div>
           </div>
           <div class="step-row">
@@ -917,7 +1477,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -945,7 +1505,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def usoCredenciales = data.Credenciales</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1001,7 +1561,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>request usoCredenciales[1]</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1029,7 +1589,7 @@ classpath:features/Login.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">618</div>
+    <div class="time-cell passed">344</div>
   </div>
 
    
@@ -1038,7 +1598,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="2.18">08:42:15.828 request:
+  <div class="preformatted" data-parent="2.18">09:17:44.319 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 29
@@ -1048,11 +1608,11 @@ classpath:features/Login.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
 
-08:42:16.443 response time in milliseconds: 615
+09:17:44.656 response time in milliseconds: 337
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 2866ea033528ca91a51166819ca86837
-1 &lt; Date: Wed, 17 Jul 2024 13:42:15 GMT
+1 &lt; X-Cloud-Trace-Context: dc5f49f5f3a8a1e5a94393dc4be48855
+1 &lt; Date: Wed, 17 Jul 2024 14:17:43 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -1108,7 +1668,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -1117,7 +1677,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="2.20">08:42:16.445 [print] &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  <div class="preformatted" data-parent="2.20">09:17:44.662 [print] &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
@@ -1141,7 +1701,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>match response contains &quot;Internal Server Error&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1170,7 +1730,7 @@ classpath:features/Login.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>501</span>
+              <span>ms:</span>&nbsp;<span>387</span>
             </div>
           </div>
           <div class="step-row">
@@ -1305,7 +1865,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1361,7 +1921,7 @@ classpath:features/Login.feature:21
         <span>Given</span>&nbsp;<span>url apiBase + apiSign</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1389,7 +1949,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>request usoCredenciales[2]</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1417,7 +1977,7 @@ classpath:features/Login.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">493</div>
+    <div class="time-cell passed">372</div>
   </div>
 
    
@@ -1426,7 +1986,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.33">08:42:16.463 request:
+  <div class="preformatted" data-parent="0.33">09:17:44.354 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 53
@@ -1436,12 +1996,12 @@ classpath:features/Login.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;User_prueba1&quot;,&quot;password&quot;:&quot;User_prueba1&quot;}
 
-08:42:16.953 response time in milliseconds: 489
+09:17:44.719 response time in milliseconds: 365
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 56dbe9abe0d1e60c788e3a04e93e7d9f
-1 &lt; Date: Wed, 17 Jul 2024 13:42:16 GMT
+1 &lt; X-Cloud-Trace-Context: 3f2e18089ecbe4b0e87b68ff0b6ded15
+1 &lt; Date: Wed, 17 Jul 2024 14:17:43 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -1495,7 +2055,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>match response == {&quot;errorMessage&quot;:&quot;This user already exist.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1524,7 +2084,7 @@ classpath:features/Login.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>554</span>
+              <span>ms:</span>&nbsp;<span>394</span>
             </div>
           </div>
           <div class="step-row">
@@ -1547,7 +2107,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1575,7 +2135,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1631,7 +2191,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1659,7 +2219,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -1715,7 +2275,7 @@ classpath:features/Login.feature:21
         <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1743,7 +2303,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>request usoCredenciales[3]</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1771,7 +2331,7 @@ classpath:features/Login.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">545</div>
+    <div class="time-cell passed">380</div>
   </div>
 
    
@@ -1780,7 +2340,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.40">08:42:16.971 request:
+  <div class="preformatted" data-parent="0.40">09:17:44.688 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 42
@@ -1790,16 +2350,16 @@ classpath:features/Login.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;User_prueba20&quot;,&quot;password&quot;:&quot;&quot;}
 
-08:42:17.513 response time in milliseconds: 541
+09:17:45.064 response time in milliseconds: 375
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 22b19b84c4adf1ff75bbd1de76c75a72
-1 &lt; Date: Wed, 17 Jul 2024 13:42:16 GMT
+1 &lt; X-Cloud-Trace-Context: f98a54f4ded61d0715e3699c2639b49d
+1 &lt; Date: Wed, 17 Jul 2024 14:17:44 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
-&quot;Auth_token: VXNlcl9wcnVlYmEyMDE3MjE4MjM=&quot;
+&quot;Auth_token: VXNlcl9wcnVlYmEyMDE3MjE4MjU=&quot;
 
 
 </div>   
@@ -1849,7 +2409,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1858,7 +2418,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.42">08:42:17.514 [print] &quot;Auth_token: VXNlcl9wcnVlYmEyMDE3MjE4MjM=&quot;
+  <div class="preformatted" data-parent="0.42">09:17:45.067 [print] &quot;Auth_token: VXNlcl9wcnVlYmEyMDE3MjE4MjU=&quot;
  
 </div>   
 
@@ -1879,7 +2439,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>match response contains &#39;Auth_token:&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1908,7 +2468,7 @@ classpath:features/Login.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>498</span>
+              <span>ms:</span>&nbsp;<span>355</span>
             </div>
           </div>
           <div class="step-row">
@@ -1931,7 +2491,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def urlPagina = &#39;https://www.demoblaze.com/&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1959,7 +2519,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def apiBase = &#39;https://api.demoblaze.com&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1987,7 +2547,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def apiSign = &#39;/signup&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2015,7 +2575,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2043,7 +2603,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -2071,7 +2631,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def usoCredenciales = data.Credenciales</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2099,7 +2659,7 @@ classpath:features/Login.feature:21
         <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2127,7 +2687,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>request usoCredenciales[4]</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2155,7 +2715,7 @@ classpath:features/Login.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">492</div>
+    <div class="time-cell passed">333</div>
   </div>
 
    
@@ -2164,7 +2724,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.48">08:42:17.527 request:
+  <div class="preformatted" data-parent="0.48">09:17:44.765 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 54
@@ -2174,12 +2734,12 @@ classpath:features/Login.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;User_prueba33&quot;,&quot;password&quot;:&quot;User_prueba2&quot;}
 
-08:42:18.016 response time in milliseconds: 489
+09:17:45.092 response time in milliseconds: 327
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 61c87556846190989b8ecda784285ad5
-1 &lt; Date: Wed, 17 Jul 2024 13:42:17 GMT
+1 &lt; X-Cloud-Trace-Context: 6f17387ece16a091831b64cd487a0428
+1 &lt; Date: Wed, 17 Jul 2024 14:17:44 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -2233,7 +2793,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -2242,7 +2802,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.50">08:42:18.018 [print] {
+  <div class="preformatted" data-parent="0.50">09:17:45.096 [print] {
   &quot;errorMessage&quot;: &quot;User does not exist.&quot;
 }
  
@@ -2265,7 +2825,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>match response == {&quot;errorMessage&quot;:&quot;User does not exist.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2294,7 +2854,7 @@ classpath:features/Login.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>322</span>
+              <span>ms:</span>&nbsp;<span>345</span>
             </div>
           </div>
           <div class="step-row">
@@ -2457,7 +3017,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def usoCredenciales = data.Credenciales</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2513,7 +3073,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>request usoCredenciales[5]</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2541,7 +3101,7 @@ classpath:features/Login.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">314</div>
+    <div class="time-cell passed">332</div>
   </div>
 
    
@@ -2550,7 +3110,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.56">08:42:18.033 request:
+  <div class="preformatted" data-parent="0.56">09:17:45.091 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 53
@@ -2560,12 +3120,12 @@ classpath:features/Login.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;User_prueba1&quot;,&quot;password&quot;:&quot;User_prueba2&quot;}
 
-08:42:18.344 response time in milliseconds: 309
+09:17:45.417 response time in milliseconds: 326
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 511b617132aaf2545f1617e09e7acd86
-1 &lt; Date: Wed, 17 Jul 2024 13:42:17 GMT
+1 &lt; X-Cloud-Trace-Context: fb36fb131fd03ca34fe658c6ada70344
+1 &lt; Date: Wed, 17 Jul 2024 14:17:44 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -2619,7 +3179,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -2628,7 +3188,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.58">08:42:18.346 [print] {
+  <div class="preformatted" data-parent="0.58">09:17:45.423 [print] {
   &quot;errorMessage&quot;: &quot;Wrong password.&quot;
 }
  
@@ -2651,7 +3211,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>match response == {&quot;errorMessage&quot;: &quot;Wrong password.&quot;}</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2680,7 +3240,7 @@ classpath:features/Login.feature:21
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>333</span>
+              <span>ms:</span>&nbsp;<span>386</span>
             </div>
           </div>
           <div class="step-row">
@@ -2787,7 +3347,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def apiLog = &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2815,7 +3375,7 @@ classpath:features/Login.feature:21
         <span>*</span>&nbsp;<span>def data = read(&#39;classpath:ArchivoEntrada/credenciales.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -2871,7 +3431,7 @@ classpath:features/Login.feature:21
         <span>Given</span>&nbsp;<span>url apiBase + apiLog</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -2899,7 +3459,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>request usoCredenciales[6]</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -2927,7 +3487,7 @@ classpath:features/Login.feature:21
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">325</div>
+    <div class="time-cell passed">372</div>
   </div>
 
    
@@ -2936,7 +3496,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.64">08:42:18.361 request:
+  <div class="preformatted" data-parent="0.64">09:17:45.119 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 29
@@ -2946,11 +3506,11 @@ classpath:features/Login.feature:21
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;&quot;,&quot;password&quot;:&quot;&quot;}
 
-08:42:18.684 response time in milliseconds: 323
+09:17:45.487 response time in milliseconds: 367
 1 &lt; 500
 1 &lt; Content-Type: text/html
-1 &lt; X-Cloud-Trace-Context: 83974660bfbac5db8ef3b448b8db38af
-1 &lt; Date: Wed, 17 Jul 2024 13:42:17 GMT
+1 &lt; X-Cloud-Trace-Context: da14b0a8dd0b426eea4f2ae723bbcd65
+1 &lt; Date: Wed, 17 Jul 2024 14:17:44 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 290
 &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
@@ -3015,7 +3575,7 @@ classpath:features/Login.feature:21
 
   
 
-  <div class="preformatted" data-parent="0.66">08:42:18.686 [print] &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
+  <div class="preformatted" data-parent="0.66">09:17:45.490 [print] &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;
 &lt;title&gt;500 Internal Server Error&lt;/title&gt;
 &lt;h1&gt;Internal Server Error&lt;/h1&gt;
 &lt;p&gt;The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.&lt;/p&gt;
@@ -3039,7 +3599,7 @@ classpath:features/Login.feature:21
         <span>And</span>&nbsp;<span>match response contains &quot;Internal Server Error&quot;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    

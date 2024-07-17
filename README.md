@@ -52,3 +52,4 @@ archivo `report-feature-#identificador.html`, luego, `Open in -> Browser` y eleg
 Ahi se podra ver el reporte más reciente de la ejecución
 - Tambien, se puede visualizar aplicando el mismo metodo, yendo al directorio `target/karate-reports` y de la misma 
 forma abrimos con un navegador el archivo `features.Login.html`. De igual forma se podra ver un reporte de la ejecucion.
+- 

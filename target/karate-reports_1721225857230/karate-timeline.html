@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2}];
+var items = [{"id":1,"group":1,"content":"features\/Login[1:10]","start":1721223730741,"end":1721223742843,"title":"features\/Login[1:10] 08:42:10.741-08:42:22.843 Comprobar si hay servicio","className":"failed"},{"id":2,"group":2,"content":"features\/Login[2.1:27]","start":1721223730741,"end":1721223735804,"title":"features\/Login[2.1:27] 08:42:10.741-08:42:15.804 Signup con nuevo usuario","className":"failed"},{"id":3,"group":2,"content":"features\/Login[2.2:28]","start":1721223735815,"end":1721223736446,"title":"features\/Login[2.2:28] 08:42:15.815-08:42:16.446 Signup con nuevo usuario"},{"id":4,"group":2,"content":"features\/Login[3:30]","start":1721223736454,"end":1721223736955,"title":"features\/Login[3:30] 08:42:16.454-08:42:16.955 Signup usuario existente"},{"id":5,"group":2,"content":"features\/Login[4:37]","start":1721223736961,"end":1721223737515,"title":"features\/Login[4:37] 08:42:16.961-08:42:17.515 Login con credenciales exitosas"},{"id":6,"group":2,"content":"features\/Login[5:45]","start":1721223737519,"end":1721223738018,"title":"features\/Login[5:45] 08:42:17.519-08:42:18.018 Login con usuario invalida"},{"id":7,"group":2,"content":"features\/Login[6:53]","start":1721223738024,"end":1721223738346,"title":"features\/Login[6:53] 08:42:18.024-08:42:18.346 Login con contraseña invalida"},{"id":8,"group":2,"content":"features\/Login[7:61]","start":1721223738351,"end":1721223738685,"title":"features\/Login[7:61] 08:42:18.351-08:42:18.685 Login con campos vacios"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
