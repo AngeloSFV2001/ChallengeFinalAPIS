@@ -20,9 +20,13 @@
         - `%JAVA_HOME%\bin`
         - `%M2_HOME%\bin`
 
-## Comandos de instalación
-
-Utilizamos el siguiente comando para actualizar y agregar las dependencias de Maven:
+## Proceso de instalación
+- clonamos el repositorio
+```bash
+https://github.com/AngeloSFV2001/ChallengeFinalAPIS.git
+```
+- Abrimos la carpeta en IntelliJ IDEA
+- Utilizamos el siguiente comando para actualizar y agregar las dependencias de Maven:
 ```bash
 mvn -U dependency:resolve
 ```
